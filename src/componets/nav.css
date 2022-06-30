@@ -1,0 +1,26 @@
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  .navbar__text {
+    height: 10px;
+    align-items:baseline;
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .navbar__ul {
+    width: 60%;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .navbar__ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 0 15px;
+    font-weight: 800;
+    text-transform: uppercase;
+    align-items: flex-start;
+  }
